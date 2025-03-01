@@ -106,9 +106,3 @@ sudo chown apache:apache -R /var/www/html
 sudo service httpd restart
 ```
 
-### 10. Access Your WordPress Site
-- Open your **EC2 Public IP** or your **Domain Name** (configured in **Route 53**) in a browser:
-  ```
-  http://your-domain-or-ec2-public-ip
-  ```
-- Follow the on-screen instructions to complete the WordPress installation.
